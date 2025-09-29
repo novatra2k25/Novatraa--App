@@ -1,16 +1,46 @@
-# novatraa
+                                                                                        Novatra SensaTech – Mobile App
+Overview
 
-A new Flutter project.
+The Novatra SensaTech Mobile App is a cross-platform application built with Flutter that allows practitioners, industries, and regulators to instantly access and analyze herbal quality reports. It connects with the Novatraa E-Tongue IoT device and backend APIs to display results on purity, adulteration, dilution, and saturation.
 
-## Getting Started
+Tech Stack
+Flutter (cross-platform for iOS & Android)
+Dart (programming language)
+REST API (Node + Express backend)
+Cloud Database (MongoDB)
 
-This project is a starting point for a Flutter application.
+Setup Instructions
+Clone the repository
+git clone https://github.com/your-repo/novatra-app.git
+cd novatra-app
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Install dependencies
+flutter pub get
+Run the app
+flutter run
+(Make sure you have Flutter SDK installed and a connected emulator/device.)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+
+User Authentication – secure login & profiles
+Herbal Report Access – view purity/adulteration results in real time
+Push Notifications – alerts when new results are available
+
+Project Structure
+lib/
+ ├── main.dart        # App entry point
+ ├── screens/         # UI screens
+ ├── widgets/         # Reusable components
+ ├── services/        # API calls & cloud sync
+ └── models/          # Data models
+ 
+Future Enhancements
+Multi-language support (English + regional)
+Role-based access (practitioner, regulator, industry)
+AI-powered sample anomaly detection
+
+
+📜 History Tracking – review past test reports
+
+📶 Offline Sync – access last synced data without internet
