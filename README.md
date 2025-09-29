@@ -1,4 +1,4 @@
-                                                                                        Novatra SensaTech – Mobile App
+                                                      Novatraa SensaTech – Mobile App
 Overview
 
 The Novatra SensaTech Mobile App is a cross-platform application built with Flutter that allows practitioners, industries, and regulators to instantly access and analyze herbal quality reports. It connects with the Novatraa E-Tongue IoT device and backend APIs to display results on purity, adulteration, dilution, and saturation.
