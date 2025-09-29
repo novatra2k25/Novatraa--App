@@ -41,6 +41,5 @@ Role-based access (practitioner, regulator, industry)
 AI-powered sample anomaly detection
 
 
-📜 History Tracking – review past test reports
-
-📶 Offline Sync – access last synced data without internet
+History Tracking – review past test reports
+Offline Sync – access last synced data without internet
